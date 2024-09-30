@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;               /* Faz com que o HTML e o Body ocupem 100% da altura da tela */
+  margin: 0;                  /* Remove as margens padrão */
+}
+
+.App {
+  display: flex;              /* Ativa o layout flexível */
+  flex-direction: column;     /* Define a direção das colunas */
+  justify-content: space-between; /* Cria espaço entre o cabeçalho, conteúdo e rodapé */
+  text-align: center;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;         /* Garante que a altura mínima da App seja 100% da altura da tela */
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+}
+
