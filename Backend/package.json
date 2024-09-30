@@ -1,5 +1,16 @@
 {
-    "velocidade": 180,
-    "desgastePneus": 40,
-    "tempoPitStop": 15
-}
+    "name": "nome-do-seu-projeto",
+    "version": "1.0.0",
+    "description": "Uma breve descrição do seu projeto.",
+    "main": "server.js", 
+    "scripts": {
+      "start": "node server.js" 
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "body-parser": "^1.19.0"
+    },
+    "author": "Seu Nome",
+    "license": "MIT"
+  }
+  

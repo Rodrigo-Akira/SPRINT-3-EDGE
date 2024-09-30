@@ -7,7 +7,7 @@ function App() {
   useEffect(() => {
     const fetchDadosCarro = async () => {
       try {
-        const response = await fetch('http://localhost:3000/dados-carro'); // Endereço do seu back-end
+        const response = await fetch('http://20.201.120.166:3000/dados-carro'); // Endereço do seu back-end
         const data = await response.json();
         setDadosCarro(data);
       } catch (error) {
